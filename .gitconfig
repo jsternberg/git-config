@@ -7,7 +7,7 @@
 	ui = auto
 [alias]
 	count = !sh -c 'git rev-list --all | wc -l'
-	fuckit = reset
+	fuckit = reset --hard
 	last = log --decorate -1
 	logd = log --decorate
 	st = status
