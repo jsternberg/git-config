@@ -11,7 +11,7 @@
 	fulldiff = diff -U9999999
 	last = log --decorate -1
 	logd = log --decorate
-	st = status
+	st = status -sb
 	stat = status
 	tree = log --graph --oneline --decorate
 	undo = reset --hard
